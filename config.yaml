@@ -1,5 +1,5 @@
 name: "Hardwario BCG"
-version: 7
+version: 8
 slug: "hardwario_bcg"
 description: "Addon for Hardwario USB radio dongle!"
 arch:
