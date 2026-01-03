@@ -4,10 +4,6 @@ slug: "hardwario_bcg"
 description: "Addon for Hardwario USB radio dongle!"
 arch:
   - aarch64
-  - amd64
-  - armhf
-  - armv7
-  - i386
 startup: "application"
 devices: 
   - "/dev/ttyUSB0"
