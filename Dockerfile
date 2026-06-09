@@ -1,5 +1,5 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/aarch64:20.2.0
+FROM ${BUILD_FROM}
 
 WORKDIR /data
 # Install requirements for add-on
