@@ -1,10 +1,11 @@
 name: "Hardwario BCG"
-version: 11
+version: 12
 slug: "hardwario_bcg"
 description: "Addon for Hardwario USB radio dongle!"
 arch:
   - aarch64
 init: false
+hassio_api: true
 startup: "application"
 devices: 
   - "/dev/ttyUSB0"
