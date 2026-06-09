@@ -24,13 +24,13 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="MarianRychtecky" \
+    maintainer="Damien-Gl" \
     org.label-schema.description="Home Assistant ha-hardwario add-on" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="ha-hardwario" \
     org.label-schema.schema-version="1.0" \
-    org.label-schema.url="https://github.com/MarianRychtecky/ha-hardwario" \
-    org.label-schema.usage="https://github.com/MarianRychtecky/ha-hardwario/README.md" \
+    org.label-schema.url="https://github.com/damien-gl/ha-hardwario/" \
+    org.label-schema.usage="https://github.com/damien-gl/ha-hardwario/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
-    org.label-schema.vcs-url="https://github.com/MarianRychtecky/ha-hardwario" \
+    org.label-schema.vcs-url="https://github.com/damien-gl/ha-hardwario" \
     org.label-schema.vendor="Hass.io Addons"
