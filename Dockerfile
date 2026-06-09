@@ -7,9 +7,10 @@ RUN \
   apk add --no-cache \
     python3 py3-pip
 RUN pip3 install --no-cache-dir bcg
-ADD run.sh /run.sh
-RUN chmod a+x /run.sh
-CMD ["/run.sh"]
+
+# Copy s6-overlay service definitions
+COPY rootfs /
+RUN chmod a+x /etc/services.d/hardwario_bcg/run /etc/services.d/hardwario_bcg/finish
 
 ARG BUILD_ARCH
 ARG BUILD_DATE

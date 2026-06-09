@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Take down the S6 supervision tree when the service exits
+# ==============================================================================
+bashio::log.warning "Hardwario BCG service stopped, halting add-on"
+
+exec /run/s6/basedir/bin/halt
